@@ -1,2 +1,10 @@
 node_modules
 dist
+/.idea/$PRODUCT_WORKSPACE_FILE$
+/.idea/.gitignore
+/.idea/kotlinc.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/package-lock.json
+/react-from-scratch.iml
+/.idea/vcs.xml
