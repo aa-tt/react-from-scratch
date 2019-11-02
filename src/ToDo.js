@@ -7,26 +7,14 @@ class ToDo extends Component {
         super(props);
         this.state = {
             // this is where the data goes
-            list: [
-                {
-                    'todo': 'learn AWS linux'
-                },
-                {
-                    'todo': 'learn Kafka to AWS'
-                }
-            ],
+            list: [{'todo': 'learn AWS linux'}, {'todo': 'learn Kafka to AWS'}],
             todo: ''
         };
     };
 
     createNewToDoItem = () => {
       this.setState(({ list, todo }) => ({
-        list: [
-            ...list,
-          {
-            todo
-          }
-        ],
+        list: [...list, {todo}],
         todo: ''
       }));
     };
