@@ -58,7 +58,7 @@ class ToDo extends Component {
     render() {
         return (
             <div className="ToDo">
-                <img className="Logo" src={Logo} alt="React logo"/>
+                <img className="Logo" alt="React logo"/>
                 <h1 className="ToDo-Header">React To Do</h1>
                 <div className="ToDo-Container">
 
