@@ -9,10 +9,10 @@ class ToDo extends Component {
             // this is where the data goes
             list: [
                 {
-                    'todo': 'clean the house'
+                    'todo': 'learn AWS linux'
                 },
                 {
-                    'todo': 'buy milk'
+                    'todo': 'learn Kafka to AWS'
                 }
             ],
             todo: ''
