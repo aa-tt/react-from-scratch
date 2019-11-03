@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './ToDo.css';
 import ToDoItem from './components/ToDoItem';
+import { hot } from "react-hot-loader";
 
 class ToDo extends Component {
     constructor(props) {
@@ -73,4 +74,4 @@ class ToDo extends Component {
     }
 }
 
-export default ToDo;
+export default hot(module)(ToDo);
